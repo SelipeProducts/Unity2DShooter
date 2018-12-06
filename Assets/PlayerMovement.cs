@@ -42,9 +42,9 @@ public class PlayerMovement : MonoBehaviour {
     {
         animator.SetBool("isJumping", false);
     }
-    public void onCrounching(bool isCrounching)
+ /*   public void onCrounching(bool isCrounching)
     {
         animator.SetBool("isCrouching", isCrounching);
     }
-
+    */
 }

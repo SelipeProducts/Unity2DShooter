@@ -465,9 +465,11 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  textNoOfLives: {fileID: 0}
   stats:
     maxHealth: 100
   statusIndicator: {fileID: 114027393998140570}
+  gameOverUI: {fileID: 0}
 --- !u!212 &212551539809807474
 SpriteRenderer:
   m_ObjectHideFlags: 1

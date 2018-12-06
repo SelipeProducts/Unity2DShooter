@@ -7,7 +7,7 @@ public class Player2Movement : MonoBehaviour
 
     public CharacterController2D controller;
     public float runspeed = 120f;
-    public Animator animator;
+    //public Animator animator;
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
@@ -47,7 +47,7 @@ public class Player2Movement : MonoBehaviour
          if (Input.GetKeyDown("p")){
            // Debug.Log("INPUT DEBUG: p");
             jump = true;
-            animator.SetBool("isJumping", true);
+          //  animator.SetBool("isJumping", true);
         }
         if (Input.GetButtonDown("Crouch"))
         {
@@ -59,7 +59,7 @@ public class Player2Movement : MonoBehaviour
         }
         //had to move to bottom on top jump was not regerstering if statement????????????????????
         horizontalMove = Input.GetAxisRaw("HorizontalP2") * runspeed;
-        animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+       // animator.SetFloat("speed", Mathf.Abs(horizontalMove));
         //
     }
 
